@@ -1,0 +1,3 @@
+if(typeof localStorage!=="undefined"){if(localStorage.getItem('skin.css')!==null&&!document.querySelector('html').hasAttribute('data-style-switcher-options')){var D2=localStorage.getItem('skin.css'),head=document.head||document.getElementsByTagName('head')[0],style=document.createElement('style');style.type='text/css';if(style.styleSheet){style.styleSheet.cssText=D2;}else{style.appendChild(document.createTextNode(D2));}
+head.appendChild(style);}
+if(localStorage.getItem('layout')!==null&&!document.querySelector('html').hasAttribute('data-style-switcher-options')){if(localStorage.getItem('layout')=='boxed'){document.querySelector('html').className+=' '+'boxed';}}}
