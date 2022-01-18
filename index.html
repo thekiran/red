@@ -16,7 +16,22 @@
     <!-- <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
         rel=stylesheet type=text/css> -->
 
-    <link rel=stylesheet href="bundles/css/bundles.css">
+    
+    <!-- Preloading assets -->
+    <link rel=preload as="script" href="bundles/js/homepage/bundle.js">
+
+    <link rel="preload" as="image" href="img/webp/lucrare-licenta-comanda.webp">
+    <link rel="preload" as="image" href='img/webp/reducereBF-redactarelacomanda.webp'>
+    <link rel="preload" as="image" href='img/webp/redactare-lucrari-comanda.webp'>
+    <link rel="preload" as="image" href='img/webp/logo-redactarelacomanda.webp'>
+
+    <img style="display: none;" src="img/webp/lucrare-licenta-comanda.webp">
+    <img style="display: none;" src='img/webp/reducereBF-redactarelacomanda.webp'>
+    <img style="display: none;" src='img/webp/redactare-lucrari-comanda.webp'>
+    <img style="display: none;" src='img/webp/logo-redactarelacomanda.webp'>
+
+
+    <link rel=stylesheet href="bundles/css/bundlescritical.css">
 
     <!-- <link rel=stylesheet href=vendor/bootstrap/css/bootstrap.css>
     <link rel=stylesheet href=vendor/font-awesome/css/font-awesome.css>
@@ -38,6 +53,9 @@
 
     <!-- <script src=vendor/modernizr/modernizr.js></script> -->
 
+
+  
+
 <body>
     <div class=body>
         <header id=header
@@ -49,7 +67,7 @@
                             <div class=header-logo>
                                 <a href=index.html>
                                     <img alt=Porto width=111 height=54 data-sticky-width=82 data-sticky-height=40
-                                        data-sticky-top=33 src=img/logo-redactarelacomanda.png>
+                                        data-sticky-top=33 src="img/webp/logo-redactarelacomanda.webp">
                                 </a>
                             </div>
                         </div>
@@ -181,7 +199,7 @@
                     data-plugin-options='{"gridwidth": 800, "gridheight": 700}'>
                     <ul>
                         <li data-transition=fade>
-                            <img src=img/slides/lucrare-licenta-comanda.jpg alt="lucrare de licenta la comanda"
+                            <img src="img/webp/lucrare-licenta-comanda.webp" alt="lucrare de licenta la comanda"
                                 data-bgposition="center center" data-bgfit=cover data-bgrepeat=no-repeat
                                 class="rev-slidebg">
                             <div class=tp-caption data-x=center data-hoffset=-150 data-y=center data-voffset=-95
@@ -203,7 +221,7 @@
                                 data-transform_in=y:[100%];opacity:0;s:500;>Confindetial, Prompt si Sigur!</div>
                         </li>
                         <li data-transition=fade>
-                            <img src=img/slides/redactare-lucrari-comanda.jpg
+                            <img src="img/webp/redactare-lucrari-comanda.webp"
                                 alt="redactare la comanda lucrari de licenta" data-bgposition="center center"
                                 data-bgfit=cover data-bgrepeat=no-repeat class="rev-slidebg">
                             <div class="tp-caption top-label" data-x=center data-hoffset=0 data-y=center
@@ -243,7 +261,7 @@
             <div class=container>
                 <div class=row>
                     <div class="col-md-12 center"><a href=/comanda-redactare-lucrare-licenta.php><img
-                               src=img/reducereBF-redactarelacomanda.png width=728 height=90 alt border=0 align /></a>
+                               src="img/webp/reducereBF-redactarelacomanda.webp" width=728 height=90 alt border=0 align /></a>
                         <h2 class="word-rotator-title mb-sm">
                             RedactareLaComanda.com constituie rodul a <strong>aproape doua decenii de
                                 experienta</strong> in
